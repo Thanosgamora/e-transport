@@ -1,0 +1,83 @@
+* {
+    box-sizing: border-box;
+    margin: 0ch;
+    padding: 0ch;
+    background-color: #eaf5df;
+}
+
+.hero-image{
+    height: 550px;
+      background-image: linear-gradient(
+      rgba(0,0,0,0.5), 
+      rgba(0,0,0, 0.5)), 
+      url("images/ev.jpg");
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: relative;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+  }
+  
+  
+  .hero-image .hero-text{
+      color: rgb(71, 243, 108);
+      text-align: center;
+  }
+  
+  .hero-image .hero-text h1{
+      padding: 20px;
+      font-size: 50px;
+      font-weight: 500;
+      position: background-image;
+  }
+  
+  .hero-image .hero-text p{
+      font-size: 30px;
+      font-weight: 500;
+      padding: 10px;
+  }
+  
+  
+
+
+.logo {
+    height: 80px;
+    width: 160px;
+    cursor: pointer;
+}
+li, a, button {
+    font-family: poppins;
+    font-weight: 500;
+    font-size: 16px;
+    color: rgb(68, 179, 231);
+    text-decoration: none;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10%;
+    position: relative;
+}
+.nav__links {
+    list-style: none;
+    font-family: Poppins;
+   
+}
+.nav__links li {
+    display: inline-block;
+    padding: 0ch 20px;
+    
+}
+
+.nav__links li a{
+    color: #80cc28;
+    transition: all 0.3s ease 0s  ;
+}
+.nav__links li a:hover{
+    color: #1a54a8;
+}
